@@ -1,7 +1,17 @@
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         """
-        overlap between x,y if x.start < y.start and x.end > y.start
+        Greedy solution:
+
+        Main Idea: Sort intervals by end time, iterate over intervals, select the intervals with the earliest end times.
+
+        Why?
+        It helps to imagine that we want to choose the most non-overlapping intervals possible.
+        
+        When choosing the first interval (from the left), which one will allow us to choose the most intervals in the future?
+        - The interval with the earliest start time.
+        * It is not possible for any other interval from the left to allow for more intervals
+        ... Apply this to the next interval from the left at every interval, then we have the solution.
 
         """
         cnt, end = 0, -5*10**4
