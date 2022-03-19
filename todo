@@ -1,0 +1,102 @@
+To Cover
+
+Competitive Programmers Handbook:
+https://cses.fi/book/book.pdf
+
+Basic Techniques
+[ ] Data Structures
+    [ ] Dynamic Arrays
+    [ ] Set Structures
+    [ ] Map structures
+    [ ] Iterators and Ranges
+    [ ] Other structures
+    [ ] Comparison to sorting
+
+[ ] Complete Search
+    [ ] Generating subsets
+    [ ] Generating permutations
+    [ ] Backtracking
+    [ ] Pruning the Search
+    [ ] Meet in the middle
+
+[ ] Greedy Algorithms
+    [ ] Coin problem
+    [ ] Scheduling
+    [ ] Tasks and deadlines
+    [ ] Minimizing sums
+    [ ] Data compression
+
+[ ] Dynamic Programming
+    [x] Coin problem
+    [x] Longest increasing subsequence
+    [ ] Paths in a grid
+    [x] Knapsack Problems
+    [ ] Edit distance
+    [ ] Counting tilings
+
+[ ] Amortized analysis
+    [ ] Two pointers
+    [ ] Nearest smaller elements
+    [ ] Sliding window minimum
+
+[ ] Bit manipulation
+    [ ] Bit representation
+    [ ] Bit operations
+    [ ] Representing sets 
+    [ ] Bit optimizations
+    [ ] Dynamic programming 
+
+Graph Algorithms
+[ ] Basics of graphs
+    [ ] Graph terminology
+    [ ] Graph representation
+ 
+[ ] Graph traversal
+    [ ] Depth first Search
+    [ ] Breadth first Search
+    [ ] Applications
+
+[ ] Shortest Paths
+    [ ] Bellman-Ford algorithm
+    [ ] Dijstra's algorithm
+    [ ] Floyd-Warshall algorithms
+
+[ ] Tree Algorithms
+    [ ] Tree traversal
+    [ ] Diameter
+    [ ] All longest paths
+    [ ] Binary trees
+
+[ ] Spanning trees
+    [ ] Kruskal's algorithm
+    [ ] Union-find structure
+    [ ] Prims algorithm
+
+[ ] Directed graphs
+    [ ] Topological sortings
+    [ ] Dynamic programming
+    [ ] Successor paths
+    [ ] Cycle detection
+
+[ ] Strong connectivity
+    [ ] Kosaraju's algorithm
+    [ ] 2SAT problem
+
+[ ] Tree queries
+    [ ] Finding ancestors
+    [ ] Subtrees and paths
+    [ ] Lowest common ancestor
+    [ ] Offline algorithms
+
+[ ] Paths and circuits
+    [ ] Eulerian paths
+    [ ] Hamiltonian paths
+    [ ] De brujin sequences
+    [ ] Knight's tours
+
+[ ] Flows and cuts
+    [ ] Ford-Fulkerson algorithm
+    [ ] Disjoint paths
+    [ ] Maximum matchings
+    [ ] Path covers
+
