@@ -3,6 +3,10 @@ To Cover
 Competitive Programmers Handbook:
 https://cses.fi/book/book.pdf
 
+Incomplete: [ ] 
+Complete:   [x]
+Skipped:    [/]
+
 Basic Techniques
 [ ] Data Structures
     [ ] Dynamic Arrays
@@ -26,13 +30,13 @@ Basic Techniques
     [ ] Minimizing sums
     [ ] Data compression
 
-[ ] Dynamic Programming
+[x] Dynamic Programming
     [x] Coin problem
     [x] Longest increasing subsequence
-    [ ] Paths in a grid
+    [x] Paths in a grid
     [x] Knapsack Problems
-    [ ] Edit distance
-    [ ] Counting tilings
+    [x] Edit distance
+    [/] Counting tilings
 
 [ ] Amortized analysis
     [ ] Two pointers
