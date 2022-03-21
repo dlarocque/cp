@@ -16,12 +16,12 @@ Basic Techniques
     [x] Other structures
     [x] Comparison to sorting
 
-[ ] Complete Search
+[x] Complete Search
     [x] Generating subsets
     [x] Generating permutations
     [x] Backtracking
-    [ ] Pruning the Search
-    [ ] Meet in the middle
+    [x] Pruning the Search
+    [x] Meet in the middle
 
 [ ] Greedy Algorithms
     [ ] Coin problem
