@@ -8,18 +8,18 @@ Complete:   [x]
 Skipped:    [/]
 
 Basic Techniques
-[ ] Data Structures
-    [ ] Dynamic Arrays
-    [ ] Set Structures
-    [ ] Map structures
-    [ ] Iterators and Ranges
-    [ ] Other structures
-    [ ] Comparison to sorting
+[x] Data Structures
+    [x] Dynamic Arrays
+    [x] Set Structures
+    [x] Map structures
+    [x] Iterators and Ranges
+    [x] Other structures
+    [x] Comparison to sorting
 
 [ ] Complete Search
-    [ ] Generating subsets
-    [ ] Generating permutations
-    [ ] Backtracking
+    [x] Generating subsets
+    [x] Generating permutations
+    [x] Backtracking
     [ ] Pruning the Search
     [ ] Meet in the middle
 
