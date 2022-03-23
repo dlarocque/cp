@@ -23,12 +23,12 @@ Basic Techniques
     [x] Pruning the Search
     [x] Meet in the middle
 
-[ ] Greedy Algorithms
+[x] Greedy Algorithms
     [x] Coin problem
     [x] Scheduling
-    [ ] Tasks and deadlines
-    [ ] Minimizing sums
-    [ ] Data compression
+    [x] Tasks and deadlines
+    [/] Minimizing sums
+    [/] Data compression
 
 [x] Dynamic Programming
     [x] Coin problem
