@@ -4,6 +4,7 @@ Competitive Programmers Handbook:
 https://cses.fi/book/book.pdf
 
 Incomplete: [ ] 
+In-Progress: [~] 
 Complete:   [x]
 Skipped:    [/]
 
@@ -39,7 +40,7 @@ Basic Techniques
     [/] Counting tilings
 
 [ ] Amortized analysis
-    [ ] Two pointers
+    [~] Two pointers
     [ ] Nearest smaller elements
     [ ] Sliding window minimum
 
