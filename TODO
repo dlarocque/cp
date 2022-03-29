@@ -22,7 +22,7 @@ Basic Techniques
     [x] Generating permutations
     [x] Backtracking
     [x] Pruning the Search
-    [x] Meet in the middle
+    [/] Meet in the middle
 
 [x] Greedy Algorithms
     [x] Coin problem
@@ -39,27 +39,34 @@ Basic Techniques
     [x] Edit distance
     [/] Counting tilings
 
-[ ] Amortized analysis
-    [~] Two pointers
-    [ ] Nearest smaller elements
-    [ ] Sliding window minimum
+[x] Amortized analysis
+    [x] Two pointers
+    [x] Nearest smaller elements
+    [x] Sliding window minimum
 
-[ ] Bit manipulation
-    [ ] Bit representation
-    [ ] Bit operations
-    [ ] Representing sets 
-    [ ] Bit optimizations
-    [ ] Dynamic programming 
+[/] Bit manipulation
+    [/] Bit representation
+    [/] Bit operations
+    [/] Representing sets 
+    [/] Bit optimizations
+    [/] Dynamic programming 
+
+[ ] Binary Search
+    [x] Find element
+    [x] Find nearest smaller element
+    [ ] Search in a rotated array
+    [x] Find Peak Element
+    [x] Search in a 2D Matrix
 
 Graph Algorithms
-[ ] Basics of graphs
-    [ ] Graph terminology
-    [ ] Graph representation
+[x] Basics of graphs
+    [x] Graph terminology
+    [x] Graph representation
  
-[ ] Graph traversal
-    [ ] Depth first Search
-    [ ] Breadth first Search
-    [ ] Applications
+[x] Graph traversal
+    [x] Depth first Search
+    [x] Breadth first Search
+    [x] Applications
 
 [ ] Shortest Paths
     [ ] Bellman-Ford algorithm
