@@ -51,10 +51,10 @@ Basic Techniques
     [/] Bit optimizations
     [/] Dynamic programming 
 
-[ ] Binary Search
+[x] Binary Search
     [x] Find element
     [x] Find nearest smaller element
-    [ ] Search in a rotated array
+    [x] Search in a rotated array
     [x] Find Peak Element
     [x] Search in a 2D Matrix
 
