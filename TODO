@@ -70,29 +70,29 @@ Graph Algorithms
 
 [ ] Shortest Paths
     [ ] Bellman-Ford algorithm
-    [ ] Dijstra's algorithm
+    [ ] Djikstra's algorithm
     [ ] Floyd-Warshall algorithms
 
-[ ] Tree Algorithms
-    [ ] Tree traversal
-    [ ] Diameter
-    [ ] All longest paths
-    [ ] Binary trees
+[x] Tree Algorithms
+    [x] Tree traversal
+    [x] Diameter
+    [x] All longest paths
+    [x] Binary trees
 
 [ ] Spanning trees
     [ ] Kruskal's algorithm
     [ ] Union-find structure
     [ ] Prims algorithm
 
-[ ] Directed graphs
-    [ ] Topological sortings
+[x] Directed graphs
+    [x] Topological sortings
     [ ] Dynamic programming
     [ ] Successor paths
     [ ] Cycle detection
 
-[ ] Strong connectivity
-    [ ] Kosaraju's algorithm
-    [ ] 2SAT problem
+[/] Strong connectivity
+    [/] Kosaraju's algorithm
+    [/] 2SAT problem
 
 [ ] Tree queries
     [ ] Finding ancestors

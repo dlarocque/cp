@@ -1,24 +1,40 @@
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         """
-        Given an acyclic, nondirected graph, return a list of all MHT's root labels
+        Find the nodes in the middle of the two furthest nodes in the graph
 
-        All of the possible first elements in a topological sorting of the tree
+        We can find the furthest nodes by doing two DFS' O(n)
+        Find the middle nodes by travelling diameter//2 edges from one of the furthest nodes
 
+        There are two possible roots if diameter is odd
+        One possible root if diameter is even
         """
-        min_height, mht_roots = 0, []
-        visited = [0] * n
+        if len(edges) < 2:
+            return [i for i in range(n)]
+        graph, in_degree = [set() for _ in range(n)], []
 
-        def dfs(k: int) -> bool:
-            if visited[k] == -1:
-                return False
-            if visited[k] == 1:
-                return True
-            visited[k] = -1
-            for 
+        # Create adjacency list
+        for u, v in edges:
+            graph[u].add(v)
+            graph[v].add(u)
 
-            return True
+        leaves = [i for i in range(n) if len(graph[i]) == 1]
+
+        while n > 2:
+            n -= len(leaves)
+            new_leaves = []
+            for leaf in leaves:
+                parent = graph[leaf].pop()
+                graph[parent].remove(leaf)
+                if len(graph[parent]) == 1:
+                    new_leaves.append(parent)
+
+            leaves = new_leaves
+
+        return leaves
 
 
-        return mht_roots
+        
+
+
         
