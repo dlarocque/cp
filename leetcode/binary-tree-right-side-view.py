@@ -20,3 +20,6 @@ class Solution:
                 if node.left: next.append(node.left)
                 if node.right: next.append(node.right)
         
+            level = next
+
+        return view

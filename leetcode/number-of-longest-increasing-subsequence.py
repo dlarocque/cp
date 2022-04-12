@@ -1,16 +1,19 @@
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
+        """
+        nums = [1,3,5,4,7]
+        """
         n = len(nums)
-        lengths, count = [1]*n, [1]*n
-
+        res = 0
+        length, count = [0]*n, [0]*n
         for i in range(n):
             for j in range(i):
+                # We can append nums[i] to the subs. that ends at j
                 if nums[i] > nums[j]:
-                    if lengths[i] == lengths[j]:
-                        lengths[i] = lengths[j]+1
+                    if length[i] + 1 == length[j]:
+                        length[i] = length[j]
                         count[i] = count[j]
-                    elif lengths[i] == lengths[j]+1:
-                        count[i] += count[j]
-
-        return sum([count[i] for i in lengths if i == max(lengths)])
+                    elif length[i] == length[j]:
+                        pass
+        return res
 
