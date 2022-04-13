@@ -58,6 +58,12 @@ Basic Techniques
     [x] Find Peak Element
     [x] Search in a 2D Matrix
 
+[ ] Linked List
+    [x] Three pointer method
+    [x] Reverse linked list
+    [x] Remove nth node from end of list
+    [ ] Merge k sorted lists
+
 Graph Algorithms
 [x] Basics of graphs
     [x] Graph terminology
