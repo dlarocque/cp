@@ -1,26 +1,78 @@
+import collections
 class Solution:
     def uniqueLetterString(self, s: str) -> int:
-        sum_unique_chars, n = 0, len(s)
-        dp = [[0]*n for _ in range(n)]        
+        """
+        count the amount of unique characters in all substrings of s
         
-        def count_unique_chars(t: str):
-            d, count = {}, 0
-            
-            for c in t:
-                if c in d:
-                    if d[c] == 1:
-                        count -= 1
-                        d[c] = -1
-                else:
-                    d[c] = 1
+        Notes:
+        - There are n(n+1)/2 substrings of s
+        - Some substrings may be repeated, in this case we re-count them 
+        
+        Algorithm for counting amount of unique characters in a substring t:
+            Create a dictionary d
+            count = 0
+            for every char in t
+                if d[char] == 0
+                    d[char] = 1
                     count += 1
-            
-            return count
+                else if d[char] == 1
+                    d[char] = -1
+                    count -= 1
+        - O(n) time, O(n) space
         
-        # iterate over all of the substrings of s
-        for i in range(len(s)):
-            for j in range(i, len(s)):
-                # print(s[i:j+1], count_unique_chars(s[i:j+1]))
-                d[i][j] = count_unique_chars(s[i:j+1])
+        If we do this on all substrings in s
+        - Time: O(n^3)
+        - Space: O(n)
+
+        How can we optimize?
+        If we know a substring i...j has k unique characters
+        If j+1 has freq == 0 in i...j
+            i...j+1 has k+1 unique characters
+        If j+1 has freq == 1 in i...j
+            i...j+1 has k-1 unique characters
+        If j+1 has freq > 1 in i...j
+            i...j+1 has k unique characters
+        
+        Dynamic Programming
+        Let's define the recurrence relation:
+            count(s[i...j]) = {
+                count(s[i...j-1])   if char at j has freq > 1 in s[i...j-1]
+                count(s[i...j-1])-1 if char at j has freq == 1 in s[i...j-1]
+                count(s[i...j-1))+1 if char at j has freq == 0 in s[i...j-1]
+                1                   if i == j 
+            }
             
-        return sum_unique_chars
+        Time: O(n^2)
+        Space: O(n^2)
+        
+        Can we bring this down to O(nlogn)? O(n)?
+        - We would have to find a way to not visit all substrings
+            
+        Pseudocode:
+        freq = dict
+        count = 0
+        dp = 2d array of size n*n
+        for i in 0...n-1
+            freq = {}
+            f
+            for j in i...n-1
+            
+        
+        Input: "LEETCODE"
+
+        """
+        total_count, n, cnt = 0, len(s), 0
+        for i in range(n):
+            freq = collections.defaultdict(int)
+            for j in range(i, n):
+                match freq[s[j]]:
+                    case 0:
+                        freq[s[j]] = 1
+                        cnt += 1
+                    case 1:
+                        freq[s[j]] = -1
+                        cnt -= 1
+
+                total_count += cnt
+
+        return total_count
