@@ -12,9 +12,9 @@ class Solution:
                 res.append(path)
                 return
 
-            for j in range(i, len(s)):
-                if isPal(s[i:j+1]):
-                    dfs(j+1, path+[s[i:j+1]])
+            for j in range(i, len(s)): # O(n)
+                if isPal(s[i:j+1]): # O(n)
+                    dfs(j+1, path+[s[i:j+1]]) # O(n^2)
             
 
         dfs(0, [])

@@ -1,24 +1,21 @@
 class SnapshotArray:
-
+    
     def __init__(self, length: int):
-        """Initialize array of dicts(int, int), and snap cnt"""
-        
-
-    def set(self, index: int, val: int) -> None:
-        """Update next snapshot to new val"""
-        
-
+        # initialize data structure
+        self.snaps = [{0: 0} for _ in range(length)]
+        self.snap_id = 0
+    
     def snap(self) -> int:
-        """Increment snap, return snap"""
-        
+        self.snap_id += 1
+        return self.snap_id - 1
 
-    def get(self, index: int, snap_id: int) -> int:
-        """return val at arr[index][snap_id]"""
-        
+    
+    def set(self, idx, val) -> None:
+        self.snaps[idx][self.snap_id] = val
 
-
-# Your SnapshotArray object will be instantiated and called as such:
-# obj = SnapshotArray(length)
-# obj.set(index,val)
-# param_2 = obj.snap()
-# param_3 = obj.get(index,snap_id)
+    def get(self, idx, snap_id) -> int:
+        for _id, val in self.snaps[idx].items():
+            if snap_id >= _id:
+                prev = val
+            else:
+                break
