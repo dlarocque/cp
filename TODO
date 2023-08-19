@@ -17,32 +17,32 @@ Basic Techniques
     [x] Other structures
     [x] Comparison to sorting
 
-[x] Complete Search
-    [x] Generating subsets
-    [x] Generating permutations
-    [x] Backtracking
-    [x] Pruning the Search
-    [/] Meet in the middle
+[ ] Complete Search
+    [ ] Generating subsets
+    [ ] Generating permutations
+    [ ] Backtracking
+    [ ] Pruning the Search
+    [ ] Meet in the middle
 
-[x] Greedy Algorithms
-    [x] Coin problem
-    [x] Scheduling
-    [x] Tasks and deadlines
-    [/] Minimizing sums
-    [/] Data compression
+[ ] Greedy Algorithms
+    [ ] Coin problem
+    [ ] Scheduling
+    [ ] Tasks and deadlines
+    [ ] Minimizing sums
+    [ ] Data compression
 
-[x] Dynamic Programming
-    [x] Coin problem
-    [x] Longest increasing subsequence
-    [x] Paths in a grid
-    [x] Knapsack Problems
-    [x] Edit distance
-    [/] Counting tilings
+[ ] Dynamic Programming
+    [ ] Coin problem
+    [ ] Longest increasing subsequence
+    [ ] Paths in a grid
+    [ ] Knapsack Problems
+    [ ] Edit distance
+    [ ] Counting tilings
 
-[x] Amortized analysis
-    [x] Two pointers
-    [x] Nearest smaller elements
-    [x] Sliding window minimum
+[ ] Amortized analysis
+    [ ] Two pointers
+    [ ] Nearest smaller elements
+    [ ] Sliding window minimum
 
 [/] Bit manipulation
     [/] Bit representation
@@ -51,60 +51,60 @@ Basic Techniques
     [/] Bit optimizations
     [/] Dynamic programming 
 
-[x] Binary Search
-    [x] Find element
-    [x] Find nearest smaller element
-    [x] Search in a rotated array
-    [x] Find Peak Element
-    [x] Search in a 2D Matrix
+[ ] Binary Search
+    [ ] Find element
+    [ ] Find nearest smaller element
+    [ ] Search in a rotated array
+    [ ] Find Peak Element
+    [ ] Search in a 2D Matrix
 
 [ ] Linked List
-    [x] Three pointer method
-    [x] Reverse linked list
-    [x] Remove nth node from end of list
+    [ ] Three pointer method
+    [ ] Reverse linked list
+    [ ] Remove nth node from end of list
     [ ] Merge k sorted lists
 
 Graph Algorithms
-[x] Basics of graphs
-    [x] Graph terminology
-    [x] Graph representation
+[ ] Basics of graphs
+    [ ] Graph terminology
+    [ ] Graph representation
  
-[x] Graph traversal
-    [x] Depth first Search
-    [x] Breadth first Search
-    [x] Applications
+[ ] Graph traversal
+    [ ] Depth first Search
+    [ ] Breadth first Search
+    [ ] Applications
 
 [ ] Shortest Paths
     [ ] Bellman-Ford algorithm
     [ ] Djikstra's algorithm
     [ ] Floyd-Warshall algorithms
 
-[x] Tree Algorithms
-    [x] Tree traversal
-    [x] Diameter
-    [x] All longest paths
-    [x] Binary trees
+[ ] Tree Algorithms
+    [ ] Tree traversal
+    [ ] Diameter
+    [ ] All longest paths
+    [ ] Binary trees
 
-[x] Spanning trees
-    [/] Kruskal's algorithm
-    [x] Union-find structure
-    [/] Prims algorithm
+[ ] Spanning trees
+    [ ] Kruskal's algorithm
+    [ ] Union-find structure
+    [ ] Prims algorithm
 
-[x] Directed graphs
-    [x] Topological sortings
-    [/] Dynamic programming
-    [/] Successor paths
-    [/] Cycle detection
+[ ] Directed graphs
+    [ ] Topological sortings
+    [ ] Dynamic programming
+    [ ] Successor paths
+    [ ] Cycle detection
 
 [/] Strong connectivity
     [/] Kosaraju's algorithm
     [/] 2SAT problem
 
-[x] Tree queries
-    [x] Finding ancestors
-    [x] Subtrees and paths
-    [x] Lowest common ancestor
-    [/] Offline algorithms
+[ ] Tree queries
+    [ ] Finding ancestors
+    [ ] Subtrees and paths
+    [ ] Lowest common ancestor
+    [ ] Offline algorithms
 
 [ ] Paths and circuits
     [ ] Eulerian paths
